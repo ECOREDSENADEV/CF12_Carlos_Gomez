@@ -62,7 +62,7 @@
 
     br
 
-    .tarjeta.tarjeta--azul.bgImg1.p-5.mb-5.bgimg2.rounded
+    .tarjeta.bgImg1
       SlyderA
         .row.justify-content-center
           .col-9.mb-5
