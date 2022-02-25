@@ -9,7 +9,7 @@
 
     .bloque-texto-g.color-white.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('F:/Sena 2022 ECOSISTEMA DE RECURSOS EDUCATIVOS/Trabajos Febrero/CF12_Prueba_Gomez_v2/src/assets/curso/imgtema1.jpg')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/imgtema1.jpg')})`}"
         )
           .bloque-texto-g__texto.p-4
             p.mb-0 Debido a la gran importancia y progreso que ha logrado la IoT es valorada como una de las tecnologías de mayor impacto a 2025, debido a que se intuye que a una gran cantidad y variedad de objetos se les incorporará variados tipos de sensores que estarán conectados a Internet produciendo un flujo de datos muy grande, el cual debe ser tratado, almacenado y expuestos de una forma sencilla y fácil de entender (Molano, 2015).
