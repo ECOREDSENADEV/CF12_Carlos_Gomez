@@ -148,7 +148,7 @@
     br
     
         
-    .tarjeta.color-primario.p-4.p-md-5.mb-5.col-6
+    .tarjeta.color-primario.p-4.p-md-5.mb-5.col-5
       .row.align-items-center
         .col-4.col-sm-6.col-md-4.mb-4.mb-md-0
           img(src="@/assets/componentes/car01.svg")
@@ -157,7 +157,7 @@
           h3 Inmutabilidad: 
           p.mb-4  los datos grabados en las cadenas son irreversibles.
           
-    .tarjeta.color-primario.p-4.p-md-5.mb-5.col-6
+    .tarjeta.color-primario.p-4.p-md-5.mb-5.col-5
       .row.align-items-center
         .col-4.col-sm-6.col-md-4.mb-4.mb-md-0
           img(src="@/assets/componentes/car01.svg")
