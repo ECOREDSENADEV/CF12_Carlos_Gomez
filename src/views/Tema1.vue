@@ -131,14 +131,14 @@
         .row
           .col-md-6.mb-4.mb-md-0
             p Se trata de un termo de agua que tiene colores metálicos muy llamativos, que informa el tiempo en que se debe tomar agua y reporta la cantidad de agua tomada según lo que se configure, este funciona por medio de un sensor que recolecta cada trago de agua y lo envía al celular por medio de bluetooth.
-          .col-md-6
+          .col-md-6.medidatab
             figure
               img(src='@/assets/template/img_01.svg', alt='Texto que describa la imagen')
               
 
       .py-4.py-md-5(titulo="Ability MyCite")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.medidatab
             figure
               img(src='@/assets/template/img_02.svg', alt='Texto que describa la imagen')
           .col-md-6
@@ -149,13 +149,13 @@
         .row
           .col-md-6.mb-4.mb-md-0
             p Es el primer carro autónomo creado por Google, que permite a un automóvil conducirse autónomamente por carreteras, detecta señales de tráfico, peatones y otros carros, inicialmente el nombre del proyecto era Google self-driving car Project y luego recibió el nombre de Waymo.        
-          .col-md-6
+          .col-md-6.medidatab2
             figure
               img(src='@/assets/template/img_03.svg', alt='Texto que describa la imagen')
 
       .py-4.py-md-5(titulo="Google Glass")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.medidatab3
             figure
               img(src='@/assets/template/img_04.svg', alt='Texto que describa la imagen')
           .col-md-6

@@ -35,11 +35,11 @@
     br
 
     .row
-      .bloque-texto-e.color-acento-botones
-        .col-7
+      .bloque-texto-e.opacidadcolor
+        .col-8.cajamarilla
           p En resumen, se puede decir que el blockchain o cadena de bloques es un gran libro digital de cuentas en donde sus bloques (registros) se encuentran conectados y cifrados con el objetivo de proteger la privacidad y la seguridad de cualquier tipo de transacciones.
-        .col-3
-          img(src='@/assets/curso/imgtm01.jpg')
+        .col-4.imgamarilla
+          img(src='@/assets/curso/imgtm01.jpg' )
 
     br
 
@@ -146,9 +146,8 @@
 
     h3 Las características principales son:
     br
-    
-        
-    .tarjeta.color-primario.p-4.p-md-5.mb-5.col-5
+      
+    .tarjeta.opacidadblue.p-4.p-md-5.mb-5.col-5
       .row.align-items-center
         .col-4.col-sm-6.col-md-4.mb-4.mb-md-0
           img(src="@/assets/componentes/car01.svg")
@@ -156,17 +155,17 @@
         .col-md.col-lg-6
           h3 Inmutabilidad: 
           p.mb-4  los datos grabados en las cadenas son irreversibles.
+
+    .tarjeta.opacidadblue.p-4.p-md-5.mb-5.col-5
+      .row.align-items-center
+        .col-4.col-sm-6.col-md-4.mb-4.mb-md-0
+          img(src="@/assets/componentes/car01.svg")
+
+        .col-md.col-lg-6
+          h3 Inmutabilidad: 
+          p.mb-4  los datos grabados en las cadenas son irreversibles.
+      
           
-    .tarjeta.color-primario.p-4.p-md-5.mb-5.col-5
-      .row.align-items-center
-        .col-4.col-sm-6.col-md-4.mb-4.mb-md-0
-          img(src="@/assets/componentes/car01.svg")
-
-        .col-md.col-lg-6
-          h3 Inmutabilidad: 
-          p.mb-4  los datos grabados en las cadenas son irreversibles.
-         
-
 
 </template>
 
