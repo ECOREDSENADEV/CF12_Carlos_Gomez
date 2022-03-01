@@ -36,9 +36,9 @@
 
     .row
       .bloque-texto-e.opacidadcolor
-        .col-8.cajamarilla
+        .col-7.cajamarilla
           p En resumen, se puede decir que el blockchain o cadena de bloques es un gran libro digital de cuentas en donde sus bloques (registros) se encuentran conectados y cifrados con el objetivo de proteger la privacidad y la seguridad de cualquier tipo de transacciones.
-        .col-4.imgamarilla
+        .col-5.imgamarilla
           img(src='@/assets/curso/imgtm01.jpg' )
 
     br
@@ -147,25 +147,65 @@
     h3 Las características principales son:
     br
       
-    .tarjeta.opacidadblue.p-4.p-md-5.mb-5.col-5
+    .tarjeta.opacidadblue.col-5.align-items-center
       .row.align-items-center
-        .col-4.col-sm-6.col-md-4.mb-4.mb-md-0
-          img(src="@/assets/componentes/car01.svg")
+        .col-1.imgtem01
+          img(src="@/assets/componentes/imgtar01.jpg")
 
-        .col-md.col-lg-6
+        .alineartex.col-3
           h3 Inmutabilidad: 
-          p.mb-4  los datos grabados en las cadenas son irreversibles.
+          p los datos grabados en las cadenas son irreversibles.
 
-    .tarjeta.opacidadblue.p-4.p-md-5.mb-5.col-5
+    .tarjeta.opacidadblue.col-5.align-items-center
       .row.align-items-center
-        .col-4.col-sm-6.col-md-4.mb-4.mb-md-0
-          img(src="@/assets/componentes/car01.svg")
+        .col-1.imgtem01
+          img(src="@/assets/componentes/imgtar02.jpg")
 
-        .col-md.col-lg-6
-          h3 Inmutabilidad: 
-          p.mb-4  los datos grabados en las cadenas son irreversibles.
-      
-          
+        .alineartex.col-3
+          h3 Transparencia:
+          p cada uno de los bloques se pueden consultar y son visibles.
+
+    .tarjeta.opacidadblue.col-5.align-items-center
+      .row.align-items-center
+        .col-1.imgtem01
+          img(src="@/assets/componentes/imgtar03.jpg")
+
+        .alineartex.col-3
+          h3 Sin intermediarios:
+          p se sostiene con una cantidad de computadores en el mundo, no existe ninguna entidad o empresa intermediaria.
+
+    .tarjeta.opacidadblue.col-5.align-items-center
+      .row.align-items-center
+        .col-1.imgtem01
+          img(src="@/assets/componentes/imgtar04.jpg")
+
+        .alineartex.col-3
+          h3 Distribuido:
+          p la información se transmite por un conjunto de computadores que comparten información, donde todos están de acuerdo con esta. 
+
+    .tarjeta.opacidadblue.col-5.align-items-center
+      .row.align-items-center
+        .col-1.imgtem01
+          img(src="@/assets/componentes/imgtar05.jpg")
+
+        .alineartex.col-3
+          h3 Veloz:
+          p solo se necesitan unos pocos minutos para realizar transacciones internacionales.
+
+
+    .tarjeta.opacidadblue.col-5.align-items-center
+      .row.align-items-center
+        .col-1.imgtem01
+          img(src="@/assets/componentes/imgtar06.jpg")
+
+        .alineartex.col-4
+          h3 Global: 
+          p solo es necesario Internet para que la información pueda ser vista.             
+
+
+
+
+  
 
 </template>
 
